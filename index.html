@@ -1,565 +1,511 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>D&G GARDEN · Dream & Garden · Fond du Sac · Mauritius</title>
-  <!-- Premium Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700;800&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <!-- AOS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    body {
-      background-color: #faf7f2;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 300;
-      color: #2c2823;
-      line-height: 1.7;
-    }
+<title>Private Villa For Rent | Grand Baie | Behind Oasis 2</title>
 
-    h1, h2, h3, h4 {
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 400;
-      letter-spacing: 0.02em;
-      color: #1a1612;
-    }
+<meta name="description"
+content="Private 3 Bedroom Villa with Pool for Rent in Grand Baie Behind Oasis 2. Fully Furnished. Secure Parking. Long Term Rental.">
 
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    /* ===== HEADER ===== */
-    .header {
-      padding: 30px 0;
-      border-bottom: 1px solid rgba(212, 175, 55, 0.2);
-      background: white;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
-    .header-inner {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
+<style>
 
-    .logo h1 {
-      font-size: 1.8rem;
-      font-weight: 400;
-      color: #1a1612;
-    }
+:root{
+--primary:#0b5ed7;
+--secondary:#25D366;
+--dark:#111827;
+--light:#f8fafc;
+--gold:#ffc107;
+}
 
-    .logo span {
-      color: #d4af37;
-      font-size: 0.9rem;
-      display: block;
-      font-family: 'Montserrat', sans-serif;
-      letter-spacing: 0.3em;
-    }
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
 
-    .header-contact {
-      display: flex;
-      gap: 20px;
-      align-items: center;
-    }
+body{
+background:#f8fafc;
+color:#333;
+line-height:1.6;
+}
 
-    .header-contact a {
-      color: #1a1612;
-      text-decoration: none;
-      font-size: 0.9rem;
-      letter-spacing: 0.05em;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url('images/villa1.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+color:white;
+}
 
-    .header-contact i {
-      color: #d4af37;
-    }
+.hero-content{
+max-width:900px;
+}
 
-    /* ===== HERO ===== */
-    .hero {
-      padding: 60px 0 40px;
-      text-align: center;
-    }
+.badge{
+display:inline-block;
+background:#25D366;
+padding:10px 20px;
+border-radius:50px;
+font-weight:600;
+margin-bottom:20px;
+}
 
-    .hero h2 {
-      font-size: 3.5rem;
-      font-weight: 300;
-      color: #1a1612;
-      line-height: 1.2;
-      margin-bottom: 15px;
-    }
+.hero h1{
+font-size:4rem;
+margin-bottom:20px;
+line-height:1.2;
+}
 
-    .hero h2 span {
-      color: #d4af37;
-      display: block;
-      font-size: 1.8rem;
-      letter-spacing: 0.3em;
-      margin-top: 10px;
-    }
+.price{
+font-size:3rem;
+font-weight:700;
+color:var(--gold);
+margin-bottom:15px;
+}
 
-    .hero-divider {
-      width: 80px;
-      height: 2px;
-      background: #d4af37;
-      margin: 25px auto;
-    }
+.hero p{
+font-size:1.2rem;
+margin-bottom:30px;
+}
 
-    .hero p {
-      font-size: 1.1rem;
-      max-width: 700px;
-      margin: 0 auto;
-      color: #5a5348;
-    }
+.btn{
+display:inline-block;
+background:var(--secondary);
+color:white;
+padding:16px 35px;
+text-decoration:none;
+border-radius:50px;
+font-weight:600;
+transition:.3s;
+}
 
-    /* ===== IMAGE STYLES - 7 PLACEHOLDERS ===== */
-    .image-container {
-      margin: 50px 0;
-      background: #f0ede8;
-      border: 1px solid rgba(212, 175, 55, 0.3);
-      overflow: hidden;
-    }
+.btn:hover{
+transform:translateY(-3px);
+}
 
-    .image-1, .image-2, .image-3, .image-4, .image-5, .image-6, .image-7 {
-      width: 100%;
-      height: 500px;
-      background-color: #e5dfd8;
-      background-size: cover;
-      background-position: center;
-      transition: transform 0.5s;
-    }
+.container{
+max-width:1300px;
+margin:auto;
+padding:80px 20px;
+}
 
-    /* Mobile height adjustment */
-    @media (max-width: 768px) {
-      .image-1, .image-2, .image-3, .image-4, .image-5, .image-6, .image-7 {
-        height: 300px;
-      }
-    }
+.section-title{
+text-align:center;
+font-size:2.5rem;
+margin-bottom:50px;
+color:var(--dark);
+}
 
-    .image-1:hover, .image-2:hover, .image-3:hover, .image-4:hover,
-    .image-5:hover, .image-6:hover, .image-7:hover {
-      transform: scale(1.02);
-    }
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
 
-    /* ===== SECTION STYLES ===== */
-    .section {
-      margin: 60px 0;
-    }
+.gallery img{
+width:100%;
+height:260px;
+object-fit:cover;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,.1);
+transition:.3s;
+}
 
-    .section-title {
-      font-size: 2.2rem;
-      margin-bottom: 25px;
-      position: relative;
-      padding-bottom: 10px;
-    }
+.gallery img:hover{
+transform:scale(1.03);
+}
 
-    .section-title:after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 60px;
-      height: 2px;
-      background: #d4af37;
-    }
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
 
-    .section-text {
-      font-size: 1.1rem;
-      color: #4a443c;
-      max-width: 800px;
-    }
+.feature{
+background:white;
+padding:30px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 5px 25px rgba(0,0,0,.08);
+}
 
-    /* ===== FEATURE GRID ===== */
-    .feature-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-      margin: 50px 0;
-    }
+.feature i{
+font-size:40px;
+color:var(--primary);
+margin-bottom:15px;
+}
 
-    .feature-card {
-      background: white;
-      padding: 30px 25px;
-      box-shadow: 0 10px 30px -10px rgba(0,0,0,0.1);
-      border: 1px solid #f0ede8;
-      transition: all 0.3s;
-    }
+.description{
+background:white;
+padding:50px;
+border-radius:15px;
+margin-top:50px;
+box-shadow:0 5px 25px rgba(0,0,0,.08);
+}
 
-    .feature-card:hover {
-      border-color: #d4af37;
-      transform: translateY(-5px);
-    }
+.description ul{
+padding-left:25px;
+margin-top:20px;
+}
 
-    .feature-icon {
-      font-size: 2.2rem;
-      color: #d4af37;
-      margin-bottom: 20px;
-    }
+.description li{
+margin-bottom:10px;
+}
 
-    .feature-card h3 {
-      font-size: 1.4rem;
-      margin-bottom: 10px;
-    }
+.terms{
+background:var(--primary);
+color:white;
+padding:50px;
+border-radius:15px;
+margin-top:50px;
+}
 
-    .feature-card p {
-      color: #6b645b;
-      font-size: 0.95rem;
-    }
+.terms h2{
+margin-bottom:20px;
+}
 
-    /* ===== VILLA GRID ===== */
-    .villa-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 30px;
-      margin: 40px 0;
-    }
+.kyc{
+background:white;
+padding:50px;
+border-radius:15px;
+margin-top:50px;
+box-shadow:0 5px 25px rgba(0,0,0,.08);
+}
 
-    @media (max-width: 700px) {
-      .villa-grid {
-        grid-template-columns: 1fr;
-      }
-    }
+form{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
 
-    .villa-card {
-      background: white;
-      padding: 35px;
-      border: 1px solid #f0ede8;
-    }
+input,select,textarea{
+width:100%;
+padding:15px;
+border:1px solid #ddd;
+border-radius:10px;
+font-size:15px;
+}
 
-    .villa-card h3 {
-      font-size: 1.6rem;
-      color: #d4af37;
-      margin-bottom: 20px;
-    }
+textarea{
+height:150px;
+grid-column:span 2;
+}
 
-    .villa-list {
-      list-style: none;
-    }
+.full{
+grid-column:span 2;
+}
 
-    .villa-list li {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 12px;
-      color: #4a443c;
-    }
+.submit-btn{
+background:var(--secondary);
+color:white;
+border:none;
+padding:18px;
+font-size:18px;
+font-weight:600;
+border-radius:10px;
+cursor:pointer;
+}
 
-    .villa-list i {
-      color: #d4af37;
-      width: 20px;
-    }
+.submit-btn:hover{
+opacity:.9;
+}
 
-    /* ===== CTA SECTION ===== */
-    .cta-section {
-      background: #1a1612;
-      color: white;
-      padding: 80px 0;
-      margin: 80px 0;
-      text-align: center;
-    }
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:50px 20px;
+margin-top:80px;
+}
 
-    .cta-section h2 {
-      font-size: 2.8rem;
-      color: white;
-      margin-bottom: 20px;
-    }
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+width:70px;
+height:70px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:35px;
+color:white;
+text-decoration:none;
+box-shadow:0 10px 30px rgba(0,0,0,.25);
+z-index:999;
+}
 
-    .cta-section p {
-      font-size: 1.2rem;
-      max-width: 700px;
-      margin: 0 auto 30px;
-      color: #d4cbb8;
-    }
+@media(max-width:768px){
 
-    .cta-button {
-      display: inline-flex;
-      align-items: center;
-      gap: 15px;
-      padding: 15px 40px;
-      background: #d4af37;
-      color: #1a1612;
-      text-decoration: none;
-      font-weight: 500;
-      letter-spacing: 0.1em;
-      border: none;
-      transition: all 0.3s;
-    }
+.hero h1{
+font-size:2.4rem;
+}
 
-    .cta-button:hover {
-      background: #e5c056;
-      transform: translateY(-2px);
-    }
+.price{
+font-size:2rem;
+}
 
-    /* ===== FOOTER ===== */
-    .footer {
-      background: #f0ede8;
-      padding: 60px 0 30px;
-      margin-top: 60px;
-    }
+form{
+grid-template-columns:1fr;
+}
 
-    .footer-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 40px;
-      margin-bottom: 40px;
-    }
+textarea,
+.full{
+grid-column:span 1;
+}
+}
 
-    @media (max-width: 600px) {
-      .footer-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    .footer-logo h3 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-    }
-
-    .footer-logo p {
-      color: #6b645b;
-    }
-
-    .footer-contact h4 {
-      font-size: 1.3rem;
-      margin-bottom: 15px;
-    }
-
-    .footer-contact a {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      color: #4a443c;
-      text-decoration: none;
-      margin-bottom: 10px;
-      font-size: 1.2rem;
-    }
-
-    .footer-contact i {
-      color: #d4af37;
-      width: 25px;
-    }
-
-    .copyright {
-      text-align: center;
-      padding-top: 30px;
-      border-top: 1px solid #d4cbb8;
-      color: #6b645b;
-      font-size: 0.9rem;
-    }
-
-    /* ===== FLOATING WHATSAPP ===== */
-    .whatsapp-float {
-      position: fixed;
-      bottom: 30px;
-      right: 30px;
-      background: #25D366;
-      color: white;
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2rem;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-      z-index: 99;
-      transition: all 0.3s;
-      text-decoration: none;
-    }
-
-    .whatsapp-float:hover {
-      transform: scale(1.1);
-      background: #20ba5c;
-    }
-  </style>
+</style>
 </head>
 <body>
-  <!-- Header -->
-  <header class="header">
-    <div class="container header-inner">
-      <div class="logo">
-        <h1>D&G GARDEN</h1>
-        <span>DREAM & GARDEN</span>
-      </div>
-      <div class="header-contact">
-        <a href="tel:+23059237053"><i class="fas fa-phone-alt"></i> +230 5923 7053</a>
-        <a href="https://wa.me/23059237053"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-      </div>
-    </div>
-  </header>
 
-  <div class="container">
-    <!-- Hero -->
-    <div class="hero">
-      <h2>THE ULTIMATE WEDDING ESTATE<span>FOND DU SAC · MAURITIUS</span></h2>
-      <div class="hero-divider"></div>
-      <p>An exquisite domain where luxury meets nature — your dream wedding awaits</p>
-    </div>
+<section class="hero">
 
-    <!-- IMAGE 1: Main Venue -->
-    <div class="image-container">
-      <div class="image-1" style="background-image: url('images/po.jpg');" data-aos="fade-up"></div>
-    </div>
+<div class="hero-content">
 
-    <!-- Introduction -->
-    <div class="section">
-      <h2 class="section-title">Your Hustle Becomes Ours</h2>
-      <p class="section-text">Planning a wedding is stressful. The checklists, the vendors, the worry. But here, your hustle becomes our hustle. Your problem? Our problem. From the moment you book, we take over. You just show up and celebrate.</p>
-    </div>
+<div class="badge">
+🔥 HIGH DEMAND LOCATION
+</div>
 
-    <!-- IMAGE 2: Gardens -->
-    <div class="image-container">
-      <div class="image-2" style="background-image: url('images/we3.jpg');" data-aos="fade-up"></div>
-    </div>
+<h1>
+Private 3 Bedroom Villa<br>
+Behind Oasis 2<br>
+Grand Baie
+</h1>
 
-    <!-- Gardens Section -->
-    <div class="section">
-      <h2 class="section-title">The Gardens</h2>
-      <p class="section-text">Our expansive gardens are the heart of the estate. Rolling lawns, tropical flora, and hidden pathways create an enchanting atmosphere for your celebration. Whether you dream of an outdoor ceremony or a cocktail hour amidst the greenery, the gardens provide endless possibilities.</p>
-    </div>
+<div class="price">
+MUR 45,000 / Month
+</div>
 
-    <!-- IMAGE 3: Pool -->
-    <div class="image-container">
-      <div class="image-3" style="background-image: url('images/we33.jpg');" data-aos="fade-up"></div>
-    </div>
+<p>
+Private Swimming Pool • Fully Furnished • Secure Parking •
+Air Conditioning • Long Term Rental
+</p>
 
-    <!-- Pool Section -->
-    <div class="section">
-      <h2 class="section-title">The Grand Swimming Pool</h2>
-      <p class="section-text">The crown jewel of the estate is our massive swimming pool — a rare feature for wedding venues. Families can arrive early, guests can cool off, and children can swim before, during, and after the main wedding events. Pure luxury and enjoyment.</p>
-    </div>
+<a class="btn"
+href="https://wa.me/23059237053?text=Hello%20I%20am%20interested%20in%20the%20Grand%20Baie%20Villa"
+target="_blank">
+Book A Viewing
+</a>
 
-    <!-- IMAGE 4: Villa Exterior -->
-    <div class="image-container">
-      <div class="image-4" style="background-image: url('images/we.jpg');" data-aos="fade-up"></div>
-    </div>
+</div>
 
-    <!-- Villa Section -->
-    <div class="section">
-      <h2 class="section-title">The Private 4-Bedroom Villa</h2>
-      <p class="section-text">Within the domain lies a private 4‑bedroom villa — a sanctuary for the wedding couple or close family. Your guests can stay overnight, relax in complete privacy, and wake up to the sounds of nature.</p>
-    </div>
+</section>
 
-    <!-- IMAGE 5: Villa Interior -->
-    <div class="image-container">
-      <div class="image-5" style="background-image: url('images/po.jpg');" data-aos="fade-up"></div>
-    </div>
+<section class="container">
 
-    <!-- Villa Features -->
-    <div class="villa-grid">
-      <div class="villa-card">
-        <h3>Four Luxurious Suites</h3>
-        <ul class="villa-list">
-          <li><i class="fas fa-gem"></i> Master suite with private terrace</li>
-          <li><i class="fas fa-gem"></i> Three guest suites with en-suite bathrooms</li>
-          <li><i class="fas fa-gem"></i> King-size beds with premium linens</li>
-          <li><i class="fas fa-gem"></i> Garden views from every room</li>
-        </ul>
-      </div>
-      <div class="villa-card">
-        <h3>Villa Amenities</h3>
-        <ul class="villa-list">
-          <li><i class="fas fa-gem"></i> Private swimming pool</li>
-          <li><i class="fas fa-gem"></i> Teak deck and loungers</li>
-          <li><i class="fas fa-gem"></i> Outdoor shower</li>
-          <li><i class="fas fa-gem"></i> Evening mood lighting</li>
-        </ul>
-      </div>
-    </div>
+<h2 class="section-title">
+Villa Gallery
+</h2>
 
-    <!-- IMAGE 6: Kitchen -->
-    <div class="image-container">
-      <div class="image-6" style="background-image: url('images/po.jpg');" data-aos="fade-up"></div>
-    </div>
+<div class="gallery">
 
-    <!-- Kitchen Section -->
-    <div class="section">
-      <h2 class="section-title">Professional Kitchen & Catering</h2>
-      <p class="section-text">Our fully equipped professional kitchen allows our top-tier chefs to create culinary masterpieces for your guests. From intimate dinners to grand banquets, we handle every detail. No outside team needed — we are your single point of contact.</p>
-    </div>
+<img src="images/villa1.jpg">
+<img src="images/villa2.jpg">
+<img src="images/villa3.jpg">
+<img src="images/villa4.jpg">
+<img src="images/villa5.jpg">
+<img src="images/villa6.jpg">
+<img src="images/villa7.jpg">
+<img src="images/villa8.jpg">
 
-    <!-- IMAGE 7: Wedding Setup -->
-    <div class="image-container">
-      <div class="image-7" style="background-image: url('images/po.jpg');" data-aos="fade-up"></div>
-    </div>
+</div>
 
-    <!-- Features Grid -->
-    <div class="section">
-      <h2 class="section-title">Why Choose D&G Garden</h2>
-      <div class="feature-grid">
-        <div class="feature-card"><i class="fas fa-tree feature-icon"></i><h3>Lush Gardens</h3><p>Expansive greenery throughout the estate</p></div>
-        <div class="feature-card"><i class="fas fa-swimming-pool feature-icon"></i><h3>Grand Pool</h3><p>Massive swimming pool for all to enjoy</p></div>
-        <div class="feature-card"><i class="fas fa-home feature-icon"></i><h3>Private Villa</h3><p>4 bedrooms for overnight stays</p></div>
-        <div class="feature-card"><i class="fas fa-utensils feature-icon"></i><h3>Professional Kitchen</h3><p>Full on-site catering</p></div>
-        <div class="feature-card"><i class="fas fa-chair feature-icon"></i><h3>Premium Setup</h3><p>Tables, chairs, full space access</p></div>
-        <div class="feature-card"><i class="fas fa-palette feature-icon"></i><h3>Full Decoration</h3><p>Built stage, styled atmosphere</p></div>
-        <div class="feature-card"><i class="fas fa-music feature-icon"></i><h3>DJ & Sound</h3><p>Professional music system</p></div>
-        <div class="feature-card"><i class="fas fa-hand-holding-heart feature-icon"></i><h3>Stress-Free</h3><p>We handle every single detail</p></div>
-      </div>
-    </div>
+<h2 class="section-title">
+Property Features
+</h2>
 
-    <!-- A to Z Package -->
-    <div class="section">
-      <h2 class="section-title">The "A to Z" Package</h2>
-      <p class="section-text">When we say we handle everything, we mean everything. You do not need to spend your weekends hunting down different suppliers. We are your single point of contact for the entire event. You just have to relax and enjoy your day.</p>
-    </div>
-  </div>
+<div class="features">
 
-  <!-- CTA Section -->
-  <div class="cta-section">
-    <div class="container">
-      <h2>The Final Promise</h2>
-      <p>You show up. You celebrate. You make memories by the pool, dine on fantastic food, and dance the night away. We handle the rest.</p>
-      <a href="https://wa.me/23059237053" class="cta-button"><i class="fab fa-whatsapp"></i> BOOK NOW · +230 5923 7053</a>
-    </div>
-  </div>
+<div class="feature">
+<i class="fas fa-swimming-pool"></i>
+<h3>Private Pool</h3>
+<p>Exclusive swimming pool for residents.</p>
+</div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-logo">
-          <h3>D&G GARDEN</h3>
-          <p>Dream & Garden · Fond du Sac, Mauritius</p>
-        </div>
-        <div class="footer-contact">
-          <h4>Contact</h4>
-          <a href="tel:+23059237053"><i class="fas fa-phone-alt"></i> +230 5923 7053</a>
-          <a href="https://wa.me/23059237053"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-        </div>
-      </div>
-      <div class="copyright">
-        © 2026 D&G Garden. All rights reserved.
-      </div>
-    </div>
-  </footer>
+<div class="feature">
+<i class="fas fa-bed"></i>
+<h3>3 Bedrooms</h3>
+<p>Air-conditioned bedrooms for maximum comfort.</p>
+</div>
 
-  <!-- Floating WhatsApp -->
-  <a href="https://wa.me/23059237053" class="whatsapp-float"><i class="fab fa-whatsapp"></i></a>
+<div class="feature">
+<i class="fas fa-car"></i>
+<h3>Secure Parking</h3>
+<p>Private parking inside the property.</p>
+</div>
 
-  <!-- AOS Script -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1000,
-      once: true,
-      offset: 50
-    });
-  </script>
+<div class="feature">
+<i class="fas fa-couch"></i>
+<h3>Fully Furnished</h3>
+<p>Ready for immediate occupation.</p>
+</div>
+
+<div class="feature">
+<i class="fas fa-shield-alt"></i>
+<h3>Quiet Area</h3>
+<p>Peaceful residential environment.</p>
+</div>
+
+<div class="feature">
+<i class="fas fa-home"></i>
+<h3>Prime Location</h3>
+<p>Located behind Oasis 2, Grand Baie.</p>
+</div>
+
+</div>
+
+<div class="description">
+
+<h2>Villa Description</h2>
+
+<p>
+Discover a beautiful fully furnished private villa located in one of Grand Baie's most desirable residential areas.
+The property offers a rare combination of privacy, comfort and exceptional value.
+</p>
+
+<ul>
+<li>Private swimming pool</li>
+<li>Ground floor master bedroom</li>
+<li>2 additional bedrooms upstairs</li>
+<li>2 bathrooms</li>
+<li>2 toilets</li>
+<li>Air conditioning in all bedrooms</li>
+<li>Spacious living room</li>
+<li>Fully equipped kitchen</li>
+<li>Secure parking</li>
+<li>Quiet residential environment</li>
+<li>Long-term rental opportunity</li>
+</ul>
+
+</div>
+
+<div class="terms">
+
+<h2>Rental Terms</h2>
+
+<p><strong>Monthly Rent:</strong> MUR 45,000</p>
+<p><strong>Security Deposit:</strong> 1 Month (Refundable)</p>
+<p><strong>Advance Rent:</strong> 1 Month</p>
+<p><strong>Agency Fee:</strong> 1 Month</p>
+<p><strong>Minimum Lease:</strong> 1 Year</p>
+<p><strong>Extension Possible:</strong> For responsible tenants</p>
+
+</div>
+
+<div class="kyc">
+
+<h2>Tenant Application Form</h2>
+
+<p>
+We seek responsible long-term tenants who will maintain and respect the property.
+</p>
+
+<br>
+
+<form id="tenantForm">
+
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email Address" required>
+
+<input type="tel" placeholder="WhatsApp Number" required>
+<input type="text" placeholder="Nationality">
+
+<input type="text" placeholder="Employer / Company">
+<input type="text" placeholder="Occupation">
+
+<input type="number" placeholder="Monthly Income">
+<input type="number" placeholder="Number of Occupants">
+
+<select>
+<option>Purpose of Rental</option>
+<option>Residential</option>
+<option>Executive Residence</option>
+<option>Corporate Stay</option>
+<option>Relocation</option>
+</select>
+
+<select>
+<option>Do You Have Pets?</option>
+<option>Yes</option>
+<option>No</option>
+</select>
+
+<input type="date">
+<input type="text" placeholder="Current Address">
+
+<textarea placeholder="Tell us about yourself and why you would be an ideal tenant."></textarea>
+
+<button class="submit-btn full" type="submit">
+Submit Application via WhatsApp
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Private Villa For Rent</h2>
+
+<p>Grand Baie • Behind Oasis 2</p>
+
+<p>WhatsApp: +230 5923 7053</p>
+
+<p>Professional Tenant Screening • Long-Term Rental</p>
+
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/23059237053"
+target="_blank">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<script>
+
+document.getElementById("tenantForm").addEventListener("submit", function(e){
+
+e.preventDefault();
+
+const fields = this.querySelectorAll("input, select, textarea");
+
+let message = "🏡 NEW VILLA APPLICATION%0A%0A";
+
+fields.forEach(field => {
+message += field.placeholder
+? field.placeholder + ": " + field.value + "%0A"
+: field.value + "%0A";
+});
+
+window.open(
+"https://wa.me/23059237053?text=" + message,
+"_blank"
+);
+
+});
+
+</script>
+
 </body>
 </html>
-
